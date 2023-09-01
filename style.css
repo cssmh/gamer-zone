@@ -1,0 +1,178 @@
+body{
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
+main{
+    max-width: 1280px;
+    margin: 20px auto;
+}
+/* Header section */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+}
+ul li i{
+    margin-left: 5px;
+    font-size: 17px;
+}
+li a{
+    text-decoration: none;
+}
+header h1{
+    display: flex;
+    align-items: center;
+}
+header h1 img{
+    width: 80px;
+    height: 35px;
+    margin-right: 10px;
+}
+.header-title{
+    font-size: 40px;
+    color: #0B0223;
+}
+.g-red{
+    color: #FF42A5;
+}
+.li-button{
+    justify-content: center;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 190px;
+    height: 40px;
+}
+/* goat section */
+.goat-section{
+    max-width: 1400px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-goat{
+    width: 50%;
+    text-align: left;
+    background: url(../images/Group\ 14.png);
+    background-size: 100%;
+    padding-left: 130px;
+}
+.photo-goat img{
+    width: 76%;
+}
+.goat-title{
+    color: #0B0223;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.goat-name{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.goat-desc{
+    color: #534C64;
+    font-size: 20px;
+}
+.btn-sign{
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    color: #FFF;
+    padding: 21px 40px;
+    border: none;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.btn-go{
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    padding: 21px 40px;
+    border: none;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+/* goat section end */
+
+
+
+
+
+
+/* Responsive section */
+/* Mobile */
+@media screen and (max-width:576px) {
+    header,
+    nav > ul{
+    flex-direction: column;
+    }
+    nav ul, header{
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    }
+    nav ul li{
+        margin-bottom: 36px;
+    }
+    .goat-section{
+        flex-direction: column-reverse;
+    }
+    .play-goat{
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .photo-goat{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* tablet section */
+@media screen and (min-width:576px) and (max-width:992px) {
+        header, .goat-section{
+            flex-direction: column;
+        }
+        .play-goat{
+            width: 100%;
+            padding-left: 0;
+            text-align: center;
+        }
+        .photo-goat{
+            text-align: center;
+        }
+}
