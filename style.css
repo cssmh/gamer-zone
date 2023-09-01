@@ -119,6 +119,49 @@ header h1 img{
 }
 /* goat section end */
 
+/* We are gamer Section */
+.we-gamer{
+    display: flex;
+}
+.we-gamer img{
+    width: 50%;
+    margin-right: 50px;
+}
+.we-are-gamer{
+    text-align: right;
+}
+.we-gamer-title{
+    margin-bottom: 0;
+    font-size: 46px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.we-gamer-desc{
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #534C64;
+    font-size: 18px;
+}
+.gamer-desc{
+    margin-top: 20px;
+    color: #534C64;
+    font-size: 24px;
+}
+.we-gamer-span{
+    color: #534C64;
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+/* We are gamer Section end */
 
 
 
