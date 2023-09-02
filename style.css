@@ -62,7 +62,6 @@ header h1 img{
 }
 /* goat section */
 .goat-section{
-    max-width: 1400px;
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
@@ -73,10 +72,10 @@ header h1 img{
     text-align: left;
     background: url(../images/Group\ 14.png);
     background-size: 100%;
-    padding-left: 130px;
+    padding-left: 120px;
 }
 .photo-goat img{
-    width: 76%;
+    width: 80%;
 }
 .goat-title{
     color: #0B0223;
@@ -362,16 +361,15 @@ header h1 img{
     color: rgba(255, 255, 255, 0.60);
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
+.facebook-youtube-btn{
+    display: flex;
+    justify-content: center;
+    margin: 29px auto;
+}
+.facebook-youtube-btn i{
+    margin-right: 30px;
+    width: 45px;
+}
 
 /* Footer section end*/
 
@@ -438,15 +436,19 @@ header h1 img{
         grid-template-columns: repeat(2, 1fr);
         padding-left: 13px;
     }
-    .footer-story-section{
+    .footer-story-section,
+    .facebook-youtube-btn{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding-left: 15%;
     }
     .terms-condition{
         display: grid;
-        padding-left: 50px;
+        padding-left: 63px;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .facebook-youtube-btn i{
+        margin-bottom: 15px;
     }
 }
 
@@ -504,5 +506,13 @@ header h1 img{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             margin-left: 12%;
+        }
+        .facebook-youtube-btn{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-left: 21%;
+        }
+        .facebook-youtube-btn i{
+            margin-bottom: 15px;
         }
 }
