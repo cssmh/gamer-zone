@@ -174,7 +174,7 @@ header h1 img{
     font-size: 0.9rem;
 }
 .game-img-section{
-    padding-left: 9px;
+    padding-left: 10px;
 }
 .game-img-section img{
     width: 95%;
@@ -196,8 +196,46 @@ header h1 img{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.game-img-section img:hover{
+    border-radius: 16px;
+    border: 2px solid #FF42A5;
+}
 /* Online Game funny Video end */
+/* Online-play-no-install Section */
+
+.online-play-no-install img{
+    width: 35%;
+}
+.online-play-no-install{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.play-no-install{
+    text-align: right;
+    margin-right: 120px;
+    padding-left: 180px;
+}
+.install-title{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.install-title-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.install desc{
+    color: #534C64;
+    font-size: 17px;
+}
+
+
+
+
+
+
 
 
 /* Responsive section */
